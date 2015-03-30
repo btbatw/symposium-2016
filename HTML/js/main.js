@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
     var newYear = new Date();
     newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1);
     $('#countdown').countdown({
-        until: new Date(2014, 12 - 1, 18)
+        until: new Date(2015, 6 - 1, 6, 8)
     }); // enter event day
 
     $('#removeCountdown').toggle(
