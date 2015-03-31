@@ -73,7 +73,6 @@ NAVIGATION
                     <li><a data-scroll href="#speakers">Speakers</a></li>
                     <li><a data-scroll href="#schedule">Schedule</a></li>
                     <li><a data-scroll href="#venue">Venue</a></li>
-                    <li><a data-scroll href="#sponsors">Sponsors</a></li>
                     <li><a data-scroll href="#career fair">Career Fair</a></li>
                     <li><a data-scroll href="#submission">Submission</a></li>
                     <li><a data-scroll href="#register">Register</a></li>
@@ -653,17 +652,19 @@ VENUE
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h3>How to get to the conference</h3>
+                <h3>Getting Here</h3>
             </div>
             <div class="col-md-4 col-lg-4">
-                <i class="fa fa-3x fa-location-arrow"></i>
-                <h4>Route from town center</h4>
-                <p>Sed commodo vitae enim elementum dictum. Aliquam at fermentum quam, et convallis odio. Sed in sem sagittis, pharetra purus in, ullamcorper neque. Quisque gravida dignissim eros, vitae imperdiet eros tempus ac. Maecenas in ipsum cursus, placerat augue quis, tristique purus. Vivamus eget eros nec mi vulputate semper sagittis quis dui. </p>
+                <i class="fa fa-3x fa-train"></i>
+                <h4>Publick Transportations</h4>
+                <p>Take the MBTA(subway) RED Line to Harvard Square. Local bus #1 #66 #68 #69 #71 #72 #73 #74 #75 #77 #78 #86 #96 can also bring you to Harvard Square. -</p>
             </div>
             <div class="col-md-4 col-lg-4">
                 <i class="fa fa-3x fa-building-o"></i>
-                <h4>Route from hotel</h4>
-                <p>Sed commodo vitae enim elementum dictum. Aliquam at fermentum quam, et convallis odio. Sed in sem sagittis, pharetra purus in, ullamcorper neque. Quisque gravida dignissim eros, vitae imperdiet eros tempus ac. Maecenas in ipsum cursus, placerat augue quis, tristique purus. Vivamus eget eros nec mi vulputate semper sagittis quis dui. </p>
+                <h4>Accomondations</h4>
+                <p> Nearby accomondations:<a href="http://isites.harvard.edu/icb/icb.do?keyword=hgse_osa&pageid=icb.page268758" target="new">Hotels and Inns </a>
+                    <br> We're also trying to provide accomondation match, please come back later to check how it works!
+                </p>
             </div>
             <div class="col-md-4 col-lg-4">
                 <i class="fa fa-3x fa-car"></i>
@@ -883,13 +884,47 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                     <div id="gallery">
                         <h3>Yes I wanna submit an abstract!</h3>
                         <p>Act now! Submission dead line is May 1st!</p>
+                        <!-- SUBMISSION FORM -->
                         <div class="row">
-                            <a class="image-link col-md-4 col-lg-4" href="img/gallery-img1.png"><img class="img-responsive " src="img/thumb1.png" alt=""></a>
-                            <a class="image-link col-md-4 col-lg-4" href="img/gallery-img2.png"><img class="img-responsive" src="img/thumb2.png" alt=""></a>
-                            <a class="image-link col-md-4 col-lg-4" href="img/gallery-img3.png"><img class="img-responsive" src="img/thumb3.png" alt=""></a>
-                            <a class="image-link col-md-4 col-lg-4" href="img/gallery-img4.png"><img class="img-responsive" src="img/thumb4.png" alt=""></a>
-                            <a class="image-link col-md-4 col-lg-4" href="img/gallery-img5.png"><img class="img-responsive" src="img/thumb5.png" alt=""></a>
-                            <a class="image-link col-md-4 col-lg-4" href="img/gallery-img6.png"><img class="img-responsive" src="img/thumb6.png" alt=""></a>
+                            <div class="submission-form col-lg-12">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label for="name">NAME</label>
+                                        <br>
+                                        <input type="text" name="name" id="name" required data-validation-required-message="Please enter your name" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls ">
+                                        <label for="email">EMAIL</label>
+                                        <br>
+                                        <input type="email" name="email" id="email" required data-validation-required-message="Please enter your email" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls ">
+                                        <label for="phone">PHONE</label>
+                                        <br>
+                                        <input type="text" name="phone" id="phone" required data-validation-required-message="Please enter your phone" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls ">
+                                        <label for="type">PREFERENCE</label>
+                                        <br>
+                                        <select name="type" id="type">
+                                            <option value="" disabled selected="selected">Select type</option>
+                                            <option value="all">I'm willing to do either long contributed talk (without poster) or short talk (with poster). </option>
+                                            <option value="long talk">I'm only interested in long contributed talk (no poster)</option>
+                                            <option value="short talk">I'm only interested in short contributed talk (with poster)</option>
+                                            <option value="poster">I'm only interested in showing a poster (no talks)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 text-right">
+                                    <button class="button button-big button-dark" onclick="contact_send();">SUBMIT</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
