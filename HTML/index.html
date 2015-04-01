@@ -1001,6 +1001,7 @@ REGISTER
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="panel-group" id="faq">
+                        <br>
                         <p>This is a great time to explore career opportunities in Taiwan. Job candidates are encouraged to submit their C.V. Private informal interviews will be arranged for selected candidates after the company representatives review the C.V. </p>
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -1097,33 +1098,10 @@ REGISTER
                                         <input type="email" name="email" id="email" placeholder="email" required data-validation-required-message="Please enter your email" />
                                     </div>
                                 </div>
-                                <div class="control-group">
-                                    <div class="controls ">
-                                        <!--<label for="phone">PHONE</label>
-                                        <br>-->
-                                        <input type="text" name="phone" id="phone" placeholder="phone" required data-validation-required-message="Please enter your phone" />
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="controls ">
-                                        <!--<label for="phone">Abstract</label>
-                                        <br>-->
-                                        <TEXTAREA NAME="abstract" placeholder="Abstract (Limited to 250 words)" ROWS="5" COLS="40" width="100%">
-                                        </TEXTAREA>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <div class="controls ">
-                                        <br>
-                                        <select name="type" id="type">
-                                            <option value="" disabled selected="selected">Select Preference</option>
-                                            <option value="all">I'm willing to do either long contributed talk (without poster) or short talk (with poster). </option>
-                                            <option value="long talk">I'm only interested in long contributed talk (no poster)</option>
-                                            <option value="short talk">I'm only interested in short contributed talk (with poster)</option>
-                                            <option value="poster">I'm only interested in showing a poster (no talks)</option>
-                                        </select>
-                                    </div>
-                                </div>
+                                <FORM METHOD="post" ACTION="mailto:jburns@htmlgoodies.com" ENCTYPE="multipart/form-data">
+                                    My C.V.:
+                                    <INPUT TYPE="file" NAME="attachedfile" MAXLENGTH=50 ALLOW="text/*">
+                                </FORM>
                                 <div class="col-lg-12 text-right">
                                     <button class="button button-big button-dark" onclick="contact_send();">SUBMIT</button>
                                 </div>
