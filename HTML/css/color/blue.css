@@ -1,24 +1,24 @@
 /* EVENTIAL CSS 
 
-	1. CORE CSS
-	2. NAVIGATION
-	3. TOP
-	   - Countdown
-	4. OVERVIEW
-	   - Milestone
-	5. SPEAKERS
-	6. SCHEDULE
-	7. VENUE
-	8. TESTIMONIAL
-	9. SPONSORS
-	10. SUBSCRIBE
-	11. FAQ & GALLERY
-	12. REGISTER
-	13. CONTACT 
-	14. MISC.
-		- Form Elements
-		- Buttons
-		- Preload	
+    1. CORE CSS
+    2. NAVIGATION
+    3. TOP
+       - Countdown
+    4. OVERVIEW
+       - Milestone
+    5. SPEAKERS
+    6. SCHEDULE
+    7. VENUE
+    8. TESTIMONIAL
+    9. SPONSORS
+    10. SUBSCRIBE
+    11. FAQ & GALLERY
+    12. REGISTER
+    13. CONTACT 
+    14. MISC.
+        - Form Elements
+        - Buttons
+        - Preload   
 */
 /* CORE CSS */
 
@@ -210,6 +210,10 @@ body {
     color: #ffffff;
     background: rgba(255, 255, 255, 0.30);
     border: 1px solid #ffffff;
+}
+
+#organizer {
+    color: #ffffff;
 }
 /* FAQ - GALLERY */
 
