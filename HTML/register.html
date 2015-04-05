@@ -2,38 +2,93 @@
     <div class="row">
         <div id="register-form" class="col-lg-6 col-lg-offset-3">
             <div class="row">
-                <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                <button title="Close (Esc)" type="button" class="mfp-close">x</button>
                 <div class="col-lg-12">
                     <h2 class="uppercase">register</h2>
-                    <p>Please make sure you have paid registration fee via EventBrite before starting the following. </p>
+                    <p>Please make sure you have paid registration fee via <a href="http://www.eventbrite.com/e/2015-boston-taiwanese-biotechnology-symposium-tickets-16207721732" target="_blank">EventBrite</a> before starting the following.</p>
                 </div>
                 <!-- REGISTER FORM -->
+		<form action="upload_reg.php" method="post" enctype="multipart/form-data">
                 <div class="register-form col-lg-12">
                     <div class="control-group">
                         <div class="controls">
-                            <label for="name">NAME</label>
+                            <label for="event_code">EventBrite Order Number*</label>
                             <br>
-                            <input type="text" name="name" id="name" required data-validation-required-message="Please enter your name" />
+                            <input type="number" name="event_code" id="event_code" min="100000000" max="999999999" required data-validation-required-message="Please enter your EventBrite order #" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label for="firstname">First Name*</label>
+                            <br>
+                            <input type="text" name="firstname" id="firstname" required data-validation-required-message="Please enter your first name" />
+                        </div>
+                    </div>
+		    <div class="control-group">
+                        <div class="controls">
+                            <label for="lastname">Last Name*</label>
+                            <br>
+                            <input type="text" name="lastname" id="lastname" required data-validation-required-message="Please enter your last name" />
                         </div>
                     </div>
                     <div class="control-group">
                         <div class="controls ">
-                            <label for="email">EMAIL</label>
+                            <label for="email">EMAIL*</label>
                             <br>
                             <input type="email" name="email" id="email" required data-validation-required-message="Please enter your email" />
                         </div>
                     </div>
-                    <div class="control-group">
+		    <div class="control-group">
                         <div class="controls ">
-                            <label for="phone">PHONE</label>
+                            <label for="org">Affiliation/Organization</label>
                             <br>
-                            <input type="text" name="phone" id="phone" required data-validation-required-message="Please enter your phone" />
+                            <input type="text" name="org" id="org" />
+                        </div>
+                    </div> 
+		    <div class="control-group">
+                        <div class="controls ">
+                            <label for="org_type">Affiliation Type</label>
+                            <br>
+                            <select name="org_type">
+                                <option value="0">-</option>
+                                <option value="1">Academic</option>
+                                <option value="2">Corporate</option>
+                                <option value="3">Government</option>
+                            </select>
+                        </div>
+                    </div>
+		    <div class="control-group">
+                        <div class="controls ">
+                            <label for="position">Position</label>
+                            <br>
+                            <select name="position">
+                                <option value="0">-</option>
+                                <option value="1">Lab Head</option>
+                                <option value="2">Professor</option>
+                                <option value="3">M.D.</option>
+                                <option value="4">Staff Scientist</option>
+                                <option value="5">Lab Manager</option>
+                                <option value="6">Post Doc.</option>
+                                <option value="7">Graduate Student</option>
+                                <option value="8">Others</option>
+                              </select>
+                        </div>
+                    </div> 
+		    <div class="control-group">
+                        <div class="controls ">
+                            <label for="diet">Vegetarian Diet</label>
+                            <br>
+                            <select name="diet">
+                                <option value="0" selected="selected">No</option>
+                                <option value="1">Yes</option>
+                              </select>
                         </div>
                     </div>
                     <div class="col-lg-12 text-right">
                         <button class="button button-big button-dark" onclick="contact_send();">REGISTER</button>
                     </div>
                 </div>
+		</form>
             </div>
         </div>
     </div>
