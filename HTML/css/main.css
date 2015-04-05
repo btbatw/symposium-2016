@@ -692,6 +692,7 @@ h4 {
 /* MISC */
 /* FORM ELEMENTS */
 
+input[type="number"],
 input[type="text"],
 input[type="email"],
 select {
