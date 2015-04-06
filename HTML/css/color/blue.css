@@ -203,11 +203,11 @@ body {
 /* SUBSCRIBE */
 
 #subscribe {
-    color: #ffffff;
+    color: #33333;
 }
 
 #subscribe input {
-    color: #ffffff;
+    color: #000000;
     background: rgba(255, 255, 255, 0.30);
     border: 1px solid #ffffff;
 }
