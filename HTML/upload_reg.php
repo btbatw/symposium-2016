@@ -16,6 +16,7 @@ $lastname  = addslashes($_POST['lastname']);
 $email        = addslashes($_POST['email']);
 $event_code = $_POST['event_code'];
 $org        = addslashes($_POST['org']);
+$pos_other  = addslashes($_POST['pos_other']);
 
 // Check the uniqueness of event_code
 $query = "SELECT * FROM sym_registrant WHERE event_code='$event_code'";
@@ -29,8 +30,8 @@ if (mysqli_num_rows($result) > 0) {
   </script>';
 } else {
 
-	$sql = "INSERT INTO sym_registrant (firstname, lastname, email, event_code, org, org_type, position, diet)
-		VALUES ('$firstname', '$lastname', '$email', '$event_code', '$org', '$_POST[org_type]', '$_POST[position]', '$_POST[diet]')";
+	$sql = "INSERT INTO sym_registrant (firstname, lastname, email, event_code, org, org_type, position, pos_other, diet)
+		VALUES ('$firstname', '$lastname', '$email', '$event_code', '$org', '$_POST[org_type]', '$_POST[position]', '$pos_other', '$_POST[diet]')";
 
 
   if (mysqli_query($conn, $sql)) {
