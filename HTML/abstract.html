@@ -1,0 +1,270 @@
+<div class="container">
+    <div class="row">
+        <div id="register-form" class="col-lg-6 col-lg-offset-3">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close">x</button>
+                <div class="col-lg-12">
+                    <h2 class="uppercase">Abstract Submission</h2>
+                    <p>Sumit your research abstract to be considered for presenting at Research Talks session.
+                        <br>Please make sure you have completed the registration form. Abstract submission deadline is
+                        <font color="#e904ab">May 1st</font>.</p>
+                    <p>If the following fields are not sufficient for your abstract, please email us at btba.tw@gmail.com</p>
+                </div>
+                <!-- ABSTRACT FORM -->
+                <form action="upload_abstract.php" method="post" enctype="multipart/form-data">
+                    <div class="register-form col-lg-12">
+                        <div class="control-group">
+                            <div class="controls">
+                                <label for="event_code">EventBrite Order Number*</label>
+                                <br>
+                                <input type="number" name="event_code" id="event_code" min="100000000" max="999999999" required data-validation-required-message="Please enter your EventBrite order #" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <label for="email">EMAIL*</label>
+                                <br>
+                                <input type="email" name="email" id="email" required data-validation-required-message="Please enter your email" />
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <label for="research">Which category best describes your research?</label>
+                                <br>
+                                <select name="research">
+                                    <option value="0">-</option>
+                                    <option value="1">Basic Research</option>
+                                    <option value="2">Applied Science</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <label for="field">Which field best describes your abstract?</label>
+                                <br>
+                                <select name="field">
+                                    <option value="0">-</option>
+                                    <option value="1">Molecular Biology/Structural Biology/Biochemistry</option>
+                                    <option value="2">Infectious Disease/Immunology</option>
+                                    <option value="3">Cancer/Stem Cell/Regenerative</option>
+                                    <option value="4">Neuroscience</option>
+                                    <option value="5">System Biology/Bioinformatics</option>
+                                    <option value="6">Bioengineering/Imaging</option>
+                                    <option value="7">Technology/translational Science</option>
+                                    <option value="8">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <label for="talk">Which section would you like your abstract to be considered?</label>
+                                <br>
+                                <select name="talk">
+                                    <option value="0">-</option>
+                                    <option value="1">Long talk</option>
+                                    <option value="2">Short talk+poster</option>
+                                    <option value="3">Poster only</option>
+                                    <option value="4">All above</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <br>
+                                <label>Authors</label>
+                                <br>
+                            </div>
+                        </div>
+                        <table border=0>
+                            <tr>
+                                <th></th>
+                                <th>Name (John T. Chen)</th>
+                                <th colspan=4>Affiliation Superscript Linking to affiliations
+                                    <th>
+                            </tr>
+                            <tr>
+                                <td align=right>1st</td>
+                                <td align=center>
+                                    <input type="text" name="author1_name">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author1_aff1" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author1_aff2" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author1_aff3" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author1_aff4" min="1" max="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=right>2nd</td>
+                                <td align=center>
+                                    <input type="text" name="author2_name">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author2_aff1" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author2_aff2" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author2_aff3" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author2_aff4" min="1" max="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=right>3rd</td>
+                                <td align=center>
+                                    <input type="text" name="author3_name">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author3_aff1" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author3_aff2" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author3_aff3" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author3_aff4" min="1" max="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=right>4th</td>
+                                <td align=center>
+                                    <input type="text" name="author4_name">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author4_aff1" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author4_aff2" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author4_aff3" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author4_aff4" min="1" max="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=right>5th</td>
+                                <td align=center>
+                                    <input type="text" name="author5_name">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author5_aff1" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author5_aff2" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author5_aff3" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author5_aff4" min="1" max="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=right>6th</td>
+                                <td align=center>
+                                    <input type="text" name="author6_name">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author6_aff1" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author6_aff2" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author6_aff3" min="1" max="4">
+                                </td>
+                                <td align=center>
+                                    <input type="number" name="author6_aff4" min="1" max="4">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan=6>
+                                    <div class="control-group">
+                                        <div class="controls ">
+                                            <br>
+                                            <label>Affiliations</label>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th>Affiliation Name</th>
+                                <th colspan=4>Address
+                                    <th>
+                            </tr>
+                            <td align=right>1st</td>
+                            <td align=center>
+                                <input type="text" name="aff1_name">
+                            </td>
+                            <td colspan=4 align=center>
+                                <input type="text" name="aff1_addr">
+                            </td>
+                            </tr>
+                            <td align=right>2nd</td>
+                            <td align=center>
+                                <input type="text" name="aff2_name">
+                            </td>
+                            <td colspan=4 align=center>
+                                <input type="text" name="aff2_addr">
+                            </td>
+                            </tr>
+                            <td align=right>3rd</td>
+                            <td align=center>
+                                <input type="text" name="aff3_name">
+                            </td>
+                            <td colspan=4 align=center>
+                                <input type="text" name="aff3_addr">
+                            </td>
+                            </tr>
+                            <td align=right>4th</td>
+                            <td align=center>
+                                <input type="text" name="aff4_name">
+                            </td>
+                            <td colspan=4 align=center>
+                                <input type="text" name="aff4_addr">
+                            </td>
+                            </tr>
+                        </table>
+                        <tr>
+                            <td colspan=6>
+                                <div class="control-group">
+                                    <div class="controls ">
+                                        <br>
+                                        <label></label>
+                                        <br>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </table>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <label for="content">Abstract Content (Max: 2900 characters)</label>
+                                <br>
+                                <textarea name="content" maxlength=2900 rows="15" cols="65"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 text-right">
+                            <button class="button button-big button-dark" onclick="contact_send();">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
