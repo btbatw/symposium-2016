@@ -21,7 +21,7 @@ if (mysqli_num_rows($result) == 0) {
   // Error message
   echo '<script language="javascript"> 
   alert("ERROR: We cannot confirm your registration. Please check your EventBrite order # and Email."); 
-  window.location.replace("http://btbatw.org/2015/query.html");
+  window.location.replace("http://btbatw.org/2015/#register");
   </script>';
 } else {
 

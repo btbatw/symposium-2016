@@ -16,7 +16,7 @@
                     <div class="register-form col-lg-12">
                         <div class="control-group">
                             <div class="controls">
-                                <label for="event_code">EventBrite Order #
+                                <label for="event_code">EventBrite Order Number* (9 digits)
                                     <font color="#e53c01" size="1em">*Must be the same # you used for registration</font>
                                 </label>
                                 <br>
@@ -32,31 +32,34 @@
                                 <input type="email" name="email" id="email" required data-validation-required-message="Please enter your email" />
                             </div>
                         </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="controls">
-                            <lable for="cv">[pdf file only]</label>
-                                <br>
-                                <input type="file" name="cv">
+                        <div class="control-group">
+                            <div class="controls">
+                                <lable for="cv">[pdf file only]</label>
+                                    <br>
+                                    <input type="file" name="cv">
+                            </div>
                         </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="controls ">
-                            <br>
-                            <label>Please indicate your preference for interviews. (First choice=1, Second choice=2, etc., Not interested=0)</label>
-                            <br> Taiwan Liposome Company (TLC)
-                            <input type="number" name="com1_prefer" max=6 min=0></input>
-                            <BR> PharmaEssentia Corporation
-                            <input type="number" name="com2_prefer" max=6 min=0></input>
-                            <BR> Simpson Biotech Co., Ltd.
-                            <input type="number" name="com3_prefer" max=6 min=0></input>
-                            <BR> CHO Pharma
-                            <input type="number" name="com4_prefer" max=6 min=0></input>
-                            <BR> Diamond Biofund/ Fountain Biopharma
-                            <input type="number" name="com5_prefer" max=6 min=0></input>
-                            <BR> TaiRx (tentative)
-                            <input type="number" name="com6_prefer" max=6 min=0></input>
-                            <BR>
+                        <div class="control-group">
+                            <div class="controls ">
+                                <br>
+                                <label>Please indicate your preference for interviews. (First choice=1, Second choice=2, etc., Not interested=0)</label>
+                                <br> Taiwan Liposome Company (TLC)
+                                <input type="number" name="com1_prefer" max=6 min=0></input>
+                                <BR> PharmaEssentia Corporation
+                                <input type="number" name="com2_prefer" max=6 min=0></input>
+                                <BR> Simpson Biotech Co., Ltd.
+                                <input type="number" name="com3_prefer" max=6 min=0></input>
+                                <BR> CHO Pharma
+                                <input type="number" name="com4_prefer" max=6 min=0></input>
+                                <BR> Diamond Biofund/ Fountain Biopharma
+                                <input type="number" name="com5_prefer" max=6 min=0></input>
+                                <BR> TaiRx (tentative)
+                                <input type="number" name="com6_prefer" max=6 min=0></input>
+                                <BR>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 text-right">
+                            <button class="button button-big button-dark" onclick="contact_send();">SUBMIT</button>
                         </div>
                     </div>
                 </form>
