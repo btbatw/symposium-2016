@@ -74,10 +74,10 @@ jQuery(document).ready(function($) {
         responsiveRefreshRate: 100,
         navigation: true,
         /* added by YuWei for set autowidth*/
-        /*
-        afterInit : function(el){
-          el.find(".owl-item").eq(0).addClass("synced");
-        }*/
+
+        afterInit: function(el) {
+            el.find(".owl-item").eq(0).addClass("synced");
+        }
     });
 
     function syncPosition(el) {
