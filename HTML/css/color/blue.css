@@ -44,7 +44,7 @@ body {
 }
 
 .top-nav-collapse {
-    background-color: #3498db;
+    background-color: rgba(136, 188, 2, 0.95);
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
