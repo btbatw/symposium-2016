@@ -152,7 +152,13 @@ body {
 /* Schedule Pagination */
 
 #days .item {
-    background: #efefef;
+    color: #3d93e3;
+    background: #a7d7f7;
+}
+
+#days .synced .item {
+    color: #ffffff;
+    background: #3498db;
 }
 
 #days .item:hover,
