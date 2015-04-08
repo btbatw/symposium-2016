@@ -20,7 +20,7 @@ $result = mysqli_query($conn, $query);
 if (mysqli_num_rows($result) == 0) {
   // Error message
   echo '<script language="javascript"> 
-  alert("ERROR: We cannot comfirm your registraction. Please check your EventBrite order number and Email, and complete the registraction form before submitting the C.V."); 
+  alert("Sorry, we can not verify your registration. Please make sure the same order # and email that you used for your registration."); 
   window.location.replace("http://btbatw.org/2015/#register");
   </script>';
 } else {
