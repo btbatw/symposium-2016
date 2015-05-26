@@ -450,10 +450,10 @@ h4 {
     float: left;
     vertical-align: middle;
 }
-/* TESTIMONIAL */
+/* industry */
 
-#testimonial {
-    background: url(../img/testimonial-bg.png) bottom center no-repeat fixed;
+#industry {
+    background: url(../img/industry-bg.jpg) bottom center no-repeat fixed;
     width: 100%;
     height: auto;
     min-height: 225px;
@@ -464,25 +464,25 @@ h4 {
     -moz-background-size: cover;
 }
 
-#testimonial .item {
+#industry .item {
     margin: 0 15px;
 }
 
-#testimonial img {
+#industry img {
     margin-bottom: 20px;
     vertical-align: middle;
 }
 
-#testimonial .item div {
+#industry .item div {
     display: table-cell;
     vertical-align: middle;
 }
 
-#testimonial p {
+#industry p {
     font-size: 17px;
 }
 
-#testimonial h4 {
+#industry h4 {
     font-family: 'sinkin_sans700_bold';
     letter-spacing: 1px;
     margin: 0;
