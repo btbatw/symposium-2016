@@ -135,6 +135,24 @@ body {
 #speaker-detail i {
     color: #888888;
 }
+/*Places*/
+
+#places {
+    color: #2e2e2e;
+    background: #ffffff;
+}
+
+#places h3 {
+    color: #3498db;
+}
+
+#places a {
+    color: #3498db;
+}
+
+#places i {
+    color: #888888;
+}
 /* SCHEDULE */
 
 .event h3 {
