@@ -306,7 +306,7 @@ h4 {
 /* speaker detail popup */
 
 #speaker-detail {
-    padding: 45px;
+    padding: 40px;
 }
 
 #speaker-detail h2 {
@@ -329,6 +329,34 @@ h4 {
 }
 
 #speaker-detail i {
+    vertical-align: middle;
+}
+/*Places*/
+
+#places {
+    padding: 35px;
+}
+
+#places h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#places h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#places a {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#places a:hover {
+    text-decoration: none;
+}
+
+#places i {
     vertical-align: middle;
 }
 /* SCHEDULE */
