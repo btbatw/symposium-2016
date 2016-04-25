@@ -38,7 +38,7 @@ if (mysqli_num_rows($result) == 0) {
     } else {
       if ((move_uploaded_file($_FILES['materials']['tmp_name'],$newname))) {
 	$sql = "UPDATE sym_entrepr SET ".
-               "materials = '$newname', ".
+               "sym_entrepr_materials = '$newname', ".
                "WHERE sym_entrepr_teamname='$teamname' AND sym_entrepr_email='$email'";
   
         if (mysqli_query($conn, $sql)) {
