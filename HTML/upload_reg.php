@@ -30,7 +30,7 @@ if (mysqli_num_rows($result) > 0) {
   // Error message
   echo '<script language="javascript"> 
 	  alert("ERROR: The team name has been used! Please try again or contact us."); 
-  window.location.replace("http://btbatw.org/2016/#register"); 
+  window.location.replace("http://btbatw.org/2025/#register"); 
   </script>';
 } else {
 
@@ -41,7 +41,7 @@ if (mysqli_num_rows($result) > 0) {
   if (mysqli_query($conn, $sql)) {
     echo '<script language="javascript"> 
     alert("Thank you so much for the registration."); 
-    window.location.replace("http://btbatw.org/2016/#register"); 
+    window.location.replace("http://btbatw.org/2025/#register"); 
     </script>';
   } else {
     echo '<script language="javascript"> 
