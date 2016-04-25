@@ -12,11 +12,12 @@ if (!$conn) {
 }
 
 $email    = addslashes($_POST['email']);
+$title    = addslashes($_POST['title']);
 $research = $_POST['research'];
 $field    = $_POST['field'];
 $talk     = $_POST['talk'];
 
-if((!empty($_FILES["abstract"])) && ($_FILES['abstract']['error'] == 0)) {
+if((!empty($_FILES['abstract'])) && ($_FILES['abstract']['error'] == 0)) {
 	$filename = basename($_FILES['abstract']['name']);
 	$newname = 'abstracts/' . $title . '.' . $filename;
 	$ext = pathinfo($filename, PATHINFO_EXTENSION);
@@ -27,7 +28,7 @@ if((!empty($_FILES["abstract"])) && ($_FILES['abstract']['error'] == 0)) {
                 </script>';
         } else {
                 if ((move_uploaded_file($_FILES['abstract']['tmp_name'],$newname))) {
-                        $sql = "INSERT INTO sym_abstract (email, research, field, talk, filename) VALUES ('$email', '$research', '$field', '$talk', '$newname')";
+                        $sql = "INSERT INTO 2016_abstracts (email, title, research, field, talk, filename) VALUES ('$email', '$title', '$research', '$field', '$talk', '$newname')";
 	
                         if (mysqli_query($conn, $sql)) {
                                 echo '<script language="javascript"> 
