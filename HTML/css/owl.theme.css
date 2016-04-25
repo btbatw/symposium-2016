@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.2
 */
 
@@ -11,7 +11,8 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #ffffff;
+/*	color: #ffffff; */
+	color: #606060
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
@@ -48,7 +49,7 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #ffffff; 
+	background: #ffffff;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
