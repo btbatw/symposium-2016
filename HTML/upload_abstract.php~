@@ -44,7 +44,7 @@ if((!empty($_FILES['abstract'])) && ($_FILES['abstract']['error'] == 0)) {
         }
 } else {
         echo '<script language="javascript"> 
-        alert("Error: We cannot upload your abstract. Please contact us."); 
+        alert("Error: We cannot upload your C.V. Please contact us."); 
         window.location.replace("http://btbatw.org/2025/#abstract"); 
         </script>';
 }
