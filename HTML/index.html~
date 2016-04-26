@@ -93,12 +93,12 @@ NAVIGATION
             <div class="collapse navbar-collapse" id="nav">
                 <ul class="nav navbar-nav navbar-right uppercase">
                     <li><a data-scroll href="#overview">Overview</a></li>
+                    <li><a data-scroll href="#schedule">Schedule</a></li>
                     <li><a data-scroll href="#speakers">Speakers</a></li>
                     <li><a data-scroll href="#workshops">Workshops</a></li>
-                    <li><a data-scroll href="#schedule">Schedule</a></li>
-                    <li><a data-scroll href="#venue">Venue</a></li>
                     <li><a data-scroll href="#submission">Abstract</a></li>
                     <li><a data-scroll href="#register">Entrepreneur</a></li>
+                    <li><a data-scroll href="#venue">Venue</a></li>
            <!--          <li><a href="btbatw.org/2015/2015_BTBA_abstractbook.pdf">AbstractBook</a></li>-->
                     <li><a class="button register" href="contact.html" style="margin-top: 0px; margin-bottom: 0px;"><i class="fa fa-2x fa-envelope-o"></i></a></li>
                 </ul>
@@ -204,6 +204,275 @@ OVERVIEW
                 </div>
         </div>
     </section>
+
+
+        <!--
+     .oooooo..o   .oooooo.   ooooo   ooooo oooooooooooo oooooooooo.   ooooo     ooo ooooo        oooooooooooo
+    d8P'    `Y8  d8P'  `Y8b  `888'   `888' `888'     `8 `888'   `Y8b  `888'     `8' `888'        `888'     `8
+    Y88bo.      888           888     888   888          888      888  888       8   888          888
+     `"Y8888o.  888           888ooooo888   888oooo8     888      888  888       8   888          888oooo8
+         `"Y88b 888           888     888   888    "     888      888  888       8   888          888    "
+    oo     .d8P `88b    ooo   888     888   888       o  888     d88'  `88.    .8'   888       o  888       o
+    8""88888P'   `Y8bood8P'  o888o   o888o o888ooooood8 o888bood8P'      `YbodP'    o888ooooood8 o888ooooood8
+
+    -->
+
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2 class="uppercase text-center">Schedule</h2>
+                    <div id="days" class="owl-carousel">
+                        <div class="item uppercase col-lg-6">
+                            <h4 class="uppercase hidden-xs">Saturday (7/16)</h4>
+                            <h5>day 1</h5>
+                        </div>
+                        <div class="item uppercase col-lg-6">
+                            <h4 class="uppercase hidden-xs">Sunday (7/17)</h4>
+                            <h5> day 2</h5>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="timetable" class="owl-carousel owl-theme">
+                        <!-- DAY 1 -->
+                        <div id="day1" class="item">
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">08.30 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Registration and Poster Setup</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">09.00 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Opening Remarks</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">09.10 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Keynote</h3>
+                                        <span class="name">Jane H. Hsiao, PhD, MBA</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">10.10 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Coffee Break</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">10.40 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B101)</p>
+                                        <h3>Oral Presentation 1</h3>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">10.40 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B103)</p>
+                                        <h3>US Industry Panel</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">11.50 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3><a data-scroll href="#industry">Entry into the Industry (Introduction)</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-cutlery"></i>
+                                        <span class="time">12.00 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Lunch & <a data-scroll href="#industry">Entry into the Industry (Networking)</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height:230px;" class="event">
+                                <div class="event-inner">
+                  <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">01.30 PM</span>
+                    <i class="fa fa-2x fa-clock-o"></i>
+                    <span class="time">02.40 PM</span>
+                    <i class="fa fa-2x fa-clock-o"></i>
+                    <span class="time">03.10 PM</span>
+                  </div>
+                  <div class="description">
+                                        <p>(Room B101)</p>
+                                        <h3>US Academic Panel</h3>
+                    <br>
+                    <h3>Coffee Break</h3>
+                    <br>
+                    <h3>Oral Presentation 2</h3>
+                  </div>
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">01.30 PM</span>
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">02.30 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B103)</p>
+                                        <h3>Investor Panel</h3>
+                    <br>
+                                        <h3>Entrepreneurial<br>Presentation</h3>
+                    <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">4.30 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Coffee Break</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">05.00 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B101)</p>
+                                        <h3>Industry Workshop</h3>
+                    <a data-scroll href="#career"><span class="name">Career Opportunities in<br>Industry</span></a>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">05.00 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B103)</p>
+                                        <h3>Entrepreneur & <br>Startup Panel</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-cutlery"></i>
+                                        <span class="time">06.00 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Poster Session & Reception Dinner</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- DAY 2 -->
+                        <div id="day2" class="item">
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">09.00 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Keynote</h3>
+                                        <span class="name">Pan-Chyr Yang, MD. PhD.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">10.00 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Coffee Break</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="height:180px;" class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">10.30 AM</span>
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">11.40 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B101)</p>
+                                        <h3>Taiwan Academic Panel</h3>
+                    <br>
+                                        <h3><a data-scroll href="#workshop">Academic Workshop</a></h3>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">10.30 AM</span>
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">11.40 AM</span>
+                                    </div>
+                                    <div class="description">
+                                        <p>(Room B103)</p>
+                                        <h3>Resume Workshop</h3>
+                    <br>
+                                        <h3>Taiwan Industry Talks</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event">
+                                <div class="event-inner">
+                                    <div class="icon">
+                                        <i class="fa fa-2x fa-clock-o"></i>
+                                        <span class="time">12.50 PM</span>
+                                    </div>
+                                    <div class="description">
+                                        <h3>Closing Remarks & Poster Award Ceremony</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!--
  .d8888b.  8888888b.  8888888888        d8888 888    d8P  8888888888 8888888b.   .d8888b.
 d88P  Y88b 888   Y88b 888              d88888 888   d8P   888        888   Y88b d88P  Y88b
@@ -903,326 +1172,8 @@ SPEAKERS
         </div>
     </section>
 
-    <!--
- .oooooo..o   .oooooo.   ooooo   ooooo oooooooooooo oooooooooo.   ooooo     ooo ooooo        oooooooooooo
-d8P'    `Y8  d8P'  `Y8b  `888'   `888' `888'     `8 `888'   `Y8b  `888'     `8' `888'        `888'     `8
-Y88bo.      888           888     888   888          888      888  888       8   888          888
- `"Y8888o.  888           888ooooo888   888oooo8     888      888  888       8   888          888oooo8
-     `"Y88b 888           888     888   888    "     888      888  888       8   888          888    "
-oo     .d8P `88b    ooo   888     888   888       o  888     d88'  `88.    .8'   888       o  888       o
-8""88888P'   `Y8bood8P'  o888o   o888o o888ooooood8 o888bood8P'      `YbodP'    o888ooooood8 o888ooooood8
-
--->
-
-<section id="schedule">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h2 class="uppercase text-center">Schedule</h2>
-                <div id="days" class="owl-carousel">
-                    <div class="item uppercase col-lg-6">
-                        <h4 class="uppercase hidden-xs">Saturday (7/16)</h4>
-                        <h5>day 1</h5>
-                    </div>
-                    <div class="item uppercase col-lg-6">
-                        <h4 class="uppercase hidden-xs">Sunday (7/17)</h4>
-                        <h5> day 2</h5>
-                    </div>
-                </div>
-                <br>
-                <div id="timetable" class="owl-carousel owl-theme">
-                    <!-- DAY 1 -->
-                    <div id="day1" class="item">
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">08.30 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Registration and Poster Setup</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">09.00 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Opening Remarks</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">09.10 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Keynote</h3>
-                                    <span class="name">Jane H. Hsiao, PhD, MBA</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">10.10 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Coffee Break</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">10.40 AM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B101)</p>
-                                    <h3>Oral Presentation 1</h3>
-                                </div>
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">10.40 AM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B103)</p>
-                                    <h3>US Industry Panel</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">11.50 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3><a data-scroll href="#industry">Entry into the Industry (Introduction)</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-cutlery"></i>
-                                    <span class="time">12.00 PM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Lunch & <a data-scroll href="#industry">Entry into the Industry (Networking)</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="height:230px;" class="event">
-                            <div class="event-inner">
-              <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">01.30 PM</span>
-                <i class="fa fa-2x fa-clock-o"></i>
-                <span class="time">02.40 PM</span>
-                <i class="fa fa-2x fa-clock-o"></i>
-                <span class="time">03.10 PM</span>
-              </div>
-              <div class="description">
-                                    <p>(Room B101)</p>
-                                    <h3>US Academic Panel</h3>
-                <br>
-                <h3>Coffee Break</h3>
-                <br>
-                <h3>Oral Presentation 2</h3>
-              </div>
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">01.30 PM</span>
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">02.30 PM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B103)</p>
-                                    <h3>Investor Panel</h3>
-                <br>
-                                    <h3>Entrepreneurial<br>Presentation</h3>
-                <br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">4.30 PM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Coffee Break</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">05.00 PM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B101)</p>
-                                    <h3>Industry Workshop</h3>
-                <a data-scroll href="#career"><span class="name">Career Opportunities in<br>Industry</span></a>
-                                </div>
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">05.00 PM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B103)</p>
-                                    <h3>Entrepreneur & <br>Startup Panel</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-cutlery"></i>
-                                    <span class="time">06.00 PM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Poster Session & Reception Dinner</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- DAY 2 -->
-                    <div id="day2" class="item">
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">09.00 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Keynote</h3>
-                                    <span class="name">Pan-Chyr Yang, MD. PhD.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">10.00 AM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Coffee Break</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="height:180px;" class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">10.30 AM</span>
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">11.40 AM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B101)</p>
-                                    <h3>Taiwan Academic Panel</h3>
-                <br>
-                                    <h3><a data-scroll href="#workshop">Academic Workshop</a></h3>
-                                </div>
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">10.30 AM</span>
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">11.40 AM</span>
-                                </div>
-                                <div class="description">
-                                    <p>(Room B103)</p>
-                                    <h3>Resume Workshop</h3>
-                <br>
-                                    <h3>Taiwan Industry Talks</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="event-inner">
-                                <div class="icon">
-                                    <i class="fa fa-2x fa-clock-o"></i>
-                                    <span class="time">12.50 PM</span>
-                                </div>
-                                <div class="description">
-                                    <h3>Closing Remarks & Poster Award Ceremony</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
-    <!--
-888     888 8888888888 888b    888 888     888 8888888888
-888     888 888        8888b   888 888     888 888
-888     888 888        88888b  888 888     888 888
-Y88b   d88P 8888888    888Y88b 888 888     888 8888888
- Y88b d88P  888        888 Y88b888 888     888 888
-  Y88o88P   888        888  Y88888 888     888 888
-   Y888P    888        888   Y8888 Y88b. .d88P 888
-    Y8P     8888888888 888    Y888  "Y88888P"  8888888888
-
-VENUE
--->
-    <section id="venue">
-        <div id="gmap_canvas"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <div class="contact">
-                        <h2 class="uppercase">VENUE</h2>
-                        <p class="address">
-                            <br>Northwest Building, Harvard University
-                            <br> Cambridge MA</p>
-                        <br>
-                        <div><img src="img/harvard_northwest.jpg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>Getting Here</h3>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <i class="fa fa-3x fa-bus"></i>
-                    <h4>Public Transportation</h4>
-                    <p>Take the MBTA(subway) RED Line to Harvard Square. Local bus #1 #66 #68 #69 #71 #72 #73 #74 #75 #77 #78 #86 #96 can also bring you to Harvard Square.</p>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <i class="fa fa-3x fa-building-o"></i>
-                    <h4>Accommondations</h4>
-                    <p> Nearby accommondations:<a href="http://isites.harvard.edu/icb/icb.do?keyword=hgse_osa&pageid=icb.page268758" target="new">Hotels and Inns </a>
-                        <br> We're also trying to provide accommondation match, please come back later to check how it works!
-                    </p>
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <i class="fa fa-3x fa-car"></i>
-                    <h4>Parking</h4>
-                    <p>On-street parking is scarce in Cambridge, but there are several public parking lots and garages around the square. Attendants can use Harvard Campus Services to purchase one-day permit for parking on or near campus. Please note that parking permit should be purchased in advance.Parking Instruction (pdf) can be downloaded<a href="Parking_Instruction_2014.pdf" target="new">here</a>.</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--
  .oooooo..o              .o8                          o8o                     o8o
 d8P'    `Y8             "888                          `"'                     `"'
@@ -1240,11 +1191,8 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="uppercase">Abstract Submission</h2>
                     <p class="lead">BTBA invites all attendee from diverse fields to share their exciting research.
-		    <br>Please dowload abstract <a href="https://docs.google.com/document/d/14PnVim6F-o8eMh6jgoSgZJXHiH6znDf1CuNeocSh6xE/edit?usp=sharing" target="_blank">template</a> and submit your research abstract(s)!
+		    <br>Please dowload abstract <a href="AbstractTemplate.docx">template</a> and submit your research abstract(s)!
                     </p>
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-			<p>For downloading <a href="https://docs.google.com/document/d/14PnVim6F-o8eMh6jgoSgZJXHiH6znDf1CuNeocSh6xE/edit?usp=sharing" target="_blank">template</a>, please cleick "File" and then "Download as".</p>                        
                 </div>
             </div>
 
@@ -1281,7 +1229,7 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
                                 <div class="panel-body">
-                                    <p class="small">An oral talk is composed of 10 minutes presentation and 2 minutes Q&A. The oral talks are also welcome to present a poster at Poster session. Due to the diverse background of the conference audience, speakers are recommended to make their presentations sufficiently informative for audience who are not in their field of expertise.</p>
+                                    <p>An oral talk is composed of 10 minutes presentation and 2 minutes Q&A. The oral talks are also welcome to present a poster at Poster session. Due to the diverse background of the conference audience, speakers are recommended to make their presentations sufficiently informative for audience who are not in their field of expertise.</p>
                                 </div>
                             </div>
                         </div>
@@ -1295,7 +1243,7 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p class="small">Yes, you can choose to participate in Poser session but not in Research Talks. Please indicate your preference when submitting your abstract. </p>
+                                    <p>Yes, you can choose to participate in Poser session but not in Research Talks. Please indicate your preference when submitting your abstract. </p>
                                 </div>
                             </div>
                         </div>
@@ -1309,7 +1257,7 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                             </div>
                             <div id="collapseSix" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p class="small">Each abstract is limited to 2000 characters. Please also guide us a category and field that best describes the abstract. <a href="AbstractTemplate.docx">Download an abstract template here</a>.</p>
+                                    <p>Each abstract is limited to 2000 characters. Please also guide us a category and field that best describes the abstract. Download an abstract template <a href="AbstractTemplate.docx">here</a>.</p>
                                 </div>
                             </div>
                         </div>
@@ -1323,7 +1271,7 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                             </div>
                             <div id="collapseSeven" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p class="small">All the posters need to be 48 inches (or less) in width and 48 inches (or less) in length. </p>
+                                    <p>All the posters need to be 48 inches (or less) in width and 48 inches (or less) in length. </p>
                                 </div>
                             </div>
                         </div>
@@ -1337,7 +1285,7 @@ oo     .d8P  888   888   888   888  888   888   888   888  o.  )88b o.  )88b  88
                             </div>
                             <div id="collapseEight" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <p class="small">Yes, just submit a new(revised) one, it will overwrite the previous submission. You can use <a class="register" href="query.html">Review My Submission</a> to see the most recent submission. Please note you have to finish all your revision by
+                                    <p>Yes, just submit a new(revised) one, it will overwrite the previous submission. You can use <a class="register" href="query.html">Review My Submission</a> to see the most recent submission. Please note you have to finish all your revision by
                                         <font color="#e904ab">June 3rd</font>. All the abstracts submitted after this deadline will NOT be accepted.</p>
                                 </div>
                             </div>
@@ -1526,6 +1474,63 @@ REGISTER
             </div>
         </div>
     </section>
+
+    <!--
+888     888 8888888888 888b    888 888     888 8888888888
+888     888 888        8888b   888 888     888 888
+888     888 888        88888b  888 888     888 888
+Y88b   d88P 8888888    888Y88b 888 888     888 8888888
+ Y88b d88P  888        888 Y88b888 888     888 888
+  Y88o88P   888        888  Y88888 888     888 888
+   Y888P    888        888   Y8888 Y88b. .d88P 888
+    Y8P     8888888888 888    Y888  "Y88888P"  8888888888
+
+VENUE
+-->
+    <section id="venue">
+        <div id="gmap_canvas"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="contact">
+                        <h2 class="uppercase">VENUE</h2>
+                        <p class="address">
+                            <br>Northwest Building, Harvard University
+                            <br> Cambridge MA</p>
+                        <br>
+                        <div><img src="img/harvard_northwest.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Getting Here</h3>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <i class="fa fa-3x fa-bus"></i>
+                    <h4>Public Transportation</h4>
+                    <p>Take the MBTA(subway) RED Line to Harvard Square. Local bus #1 #66 #68 #69 #71 #72 #73 #74 #75 #77 #78 #86 #96 can also bring you to Harvard Square.</p>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <i class="fa fa-3x fa-building-o"></i>
+                    <h4>Accommondations</h4>
+                    <p> Nearby accommondations:<a href="http://isites.harvard.edu/icb/icb.do?keyword=hgse_osa&pageid=icb.page268758" target="new">Hotels and Inns </a>
+                        <br> We're also trying to provide accommondation match, please come back later to check how it works!
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <i class="fa fa-3x fa-car"></i>
+                    <h4>Parking</h4>
+                    <p>On-street parking is scarce in Cambridge, but there are several public parking lots and garages around the square. Attendants can use Harvard Campus Services to purchase one-day permit for parking on or near campus. Please note that parking permit should be purchased in advance.Parking Instruction (pdf) can be downloaded<a href="Parking_Instruction_2014.pdf" target="new">here</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!--
 oooooo     oooo           oooo                              .
  `888.     .8'            `888                            .o8
@@ -1597,13 +1602,7 @@ SPONSORS
                                 <br>
                             </div>
                         </div>
-                        <div class="speaker col-xs-6 col-sm-2 col-md-2 col-lg-2">
-                            <div><img class="img-responsive" src="img/logo_cm.jpg" alt="CM">
-                                <br> Cesari and McKenna, LLP
-                                <br>
-                                <br>
-                            </div>
-                        </div>
+
                         <div class="speaker col-xs-6 col-sm-2 col-md-2 col-lg-2">
                             <div>
                                 <img class="img-responsive" src="img/logo_TAA.jpg" alt="TAABoston">
@@ -1645,8 +1644,8 @@ SPONSORS
                     <br>
                     <div class="row">
                         <p>
-                            <a href="http://btbatw.org/" target="new" style="color: white;"><img src="img/btba_logo.png"> Boston Taiwanese Biotechnology Association</a>
-                            <img src="img/harvardGSAS_logo.png"> Harvard GSAS Taiwan Student Association </p>
+                            <a href="http://btbatw.org/" target="new" style="color: black;"><img src="img/btba_logo.png"> Boston Taiwanese Biotechnology Association</a>
+                        </p>
                     </div>
                 </div>
             </div>
