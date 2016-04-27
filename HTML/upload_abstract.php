@@ -1,8 +1,8 @@
 <?php
 $servername = "btbatworg.ipagemysql.com";
-$username = "btbatw";
-$password = "btbatw123";
-$dbname = "btba";
+$username = "btbatworg";
+$password = "BTBAtw123@";
+$dbname = "btba2016";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -27,7 +27,7 @@ if((!empty($_FILES['abstract'])) && ($_FILES['abstract']['error'] == 0)) {
                 </script>';
         } else {
                 if ((move_uploaded_file($_FILES['abstract']['tmp_name'],$newname))) {
-                        $sql = "INSERT INTO 2016_abstracts (email, title, field, talk, filename) VALUES ('$email', '$title', '$field', '$talk', '$newname')";
+                        $sql = "INSERT INTO abstracts (email, title, field, talk, filename) VALUES ('$email', '$title', '$field', '$talk', '$newname')";
 	
                         if (mysqli_query($conn, $sql)) {
                                 echo '<script language="javascript"> 
