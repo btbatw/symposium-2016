@@ -25,7 +25,7 @@ if((!empty($_FILES['abstract'])) && ($_FILES['abstract']['error'] == 0)) {
 	if($ext !== 'pdf') {
                 echo '<script language="javascript">
                 alert("Error: Please upload a PDF file.");
-                window.location.replace("http://btbatw.org/2025/#abstract");
+                window.location.replace("http://btbatw.org/2016/#abstract");
                 </script>';
         } else {
                 if ((move_uploaded_file($_FILES['abstract']['tmp_name'],$newname))) {
@@ -34,12 +34,12 @@ if((!empty($_FILES['abstract'])) && ($_FILES['abstract']['error'] == 0)) {
                         if (mysqli_query($conn, $sql)) {
                                 echo '<script language="javascript"> 
                                 alert("Thank you so much for submitting the abstract."); 
-                                window.location.replace("http://btbatw.org/2025/"); 
+                                window.location.replace("http://btbatw.org/2016/"); 
                                 </script>';
                         } else {
                                 echo '<script language="javascript"> 
                                 alert("Error: We cannot process your abstract submission. Please contact us."); 
-                                window.location.replace("http://btbatw.org/2025/#abstract"); 
+                                window.location.replace("http://btbatw.org/2016/#abstract"); 
                                 </script>';
                         }
                 }
@@ -47,7 +47,7 @@ if((!empty($_FILES['abstract'])) && ($_FILES['abstract']['error'] == 0)) {
 } else {
         echo '<script language="javascript"> 
         alert("Error: We cannot upload your abstract. Please contact us."); 
-        window.location.replace("http://btbatw.org/2025/#abstract"); 
+        window.location.replace("http://btbatw.org/2016/#abstract"); 
         </script>';
 }
 

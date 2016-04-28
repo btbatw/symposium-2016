@@ -1,8 +1,8 @@
 <?php
 $servername = "btbatworg.ipagemysql.com";
-$username = "btbatw";
-$password = "btbatw123";
-$dbname = "btba";
+$username = "btbatworg";
+$password = "BTBAtw123@";
+$dbname = "btba2016";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -24,12 +24,12 @@ $message = addslashes($_POST['message']);
   if (mysqli_query($conn, $sql)) {
     echo '<script language="javascript"> 
     alert("Thank you so much for being willing to help us. We will contact you soon."); 
-    window.location.replace("http://btbatw.org/2015/#register"); 
+    window.location.replace("http://btbatw.org/2016/#sponsors"); 
     </script>';
   } else {
     echo '<script language="javascript"> 
     alert("Error: We are very sorry that we cannot process your message. Please contact us, "btba.tw@gmail.com"."); 
-    window.location.replace("http://btbatw.org/2015/#register"); 
+    window.location.replace("http://btbatw.org/2016/#sponsors"); 
     </script>';
   }
 
