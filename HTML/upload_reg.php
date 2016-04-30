@@ -38,8 +38,8 @@ if (mysqli_num_rows($result) > 0) {
     $newname = 'materials/' . $teamname . '.' . $filename;
 
 		if ((move_uploaded_file($_FILES['materials']['tmp_name'],$newname))) {
-			$sql = "INSERT INTO sym_entrepr (sym_entrepr_id, sym_entrepr_teamname, sym_entrepr_email, sym_entrepr_innovation, sym_entrepr_development, sym_entrepr_market, sym_entrepr_intellectual, sym_entrepr_background, sym_entrepr_future, sym_entrepr_material)
-			VALUES ('default', '$teamname', '$email', '$innovation', '$development', '$market', '$intellectual', '$background', '$future', '$newname')";
+			$sql = "INSERT INTO sym_entrepr (sym_entrepr_id, sym_entrepr_teamname, sym_entrepr_email, sym_entrepr_members, sym_entrepr_innovation, sym_entrepr_development, sym_entrepr_market, sym_entrepr_intellectual, sym_entrepr_background, sym_entrepr_future, sym_entrepr_material)
+			VALUES ('default', '$teamname', '$email', $members, '$innovation', '$development', '$market', '$intellectual', '$background', '$future', '$newname')";
 			
 			if (mysqli_query($conn, $sql)) {
 				echo '<script language="javascript">
