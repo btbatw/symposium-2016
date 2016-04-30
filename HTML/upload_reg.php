@@ -12,8 +12,8 @@ if (!$conn) {
 }
 
 $teamname  = addslashes($_POST['teamname']);
-$email        = addslashes($_POST['email']);
-//$phone = $_POST['phone'];
+$email        = htmlspecialchars($_POST['email']);
+$members = htmlspecialchars($_POST['members']);
 $innovation        = addslashes($_POST['innovation']);
 $development        = addslashes($_POST['development']);
 $market        = addslashes($_POST['market']);
@@ -58,6 +58,11 @@ if (mysqli_num_rows($result) > 0) {
 				window.location.replace("http://btbatw.org/2016/#register"); 
 				</script>';
 		}
+	} else {
+				echo '<script language="javascript"> 
+				alert("Error: Please upload supporting materials."); 
+				window.location.replace("http://btbatw.org/2016/#register"); 
+				</script>';	
 	}
 }
 
