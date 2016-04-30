@@ -6,11 +6,24 @@
                 <div class="col-lg-12">
                     <h2 class="uppercase">register Entrepreneur Presentation</h2>
                 </div>
+                <div class="panel-body">
+                	<p>Please submit a document that addresses the following topics. Other supporting materials, e.g. slide deck, executive summary, etc. are welcome too. Please concatenate multiple pdf files into one.</p><p>
+          <ul>
+						<li><b>Innovation</b>: What is your product? How is it different from current products?</li>
+						<li><b>Development Timeline</b>: Where does your product come from? What testing has been done?</li>
+						<li><b>Market Potential</b>: What problem do you aim to solve? How large is the market?</li>
+						<li><b>Intellectual Property</b>: Is your idea defensible?</li>
+						<li><b>Team background</b>: Highlight of your team’s expertise and experiences.</li>
+						<li><b>Future plans</b>: What is the next step to advance your product? What resources are you seeking to achieve that?</li>
+					</ul>
+                                    </p>
+                </div>
+
                 <!-- REGISTER FORM -->
-		<form action="upload_reg.php" method="post" enctype="multipart/form-data" id="entreform">
+		<form action="upload_reg.php" method="post" enctype="multipart/form-data">
                 <div class="register-form col-lg-12">
                 <p>* required fields</p>
-		    <div class="control-group">
+		    						<div class="control-group">
                         <div class="controls">
                             <label for="teamname">Team Name*</label>
                             <br>
@@ -19,7 +32,7 @@
                     </div>
                     <div class="control-group">
                         <div class="controls ">
-                            <label for="email">contact EMAIL*</label>
+                            <label for="email">Contact EMAIL*</label>
                             <br>
                             <input type="email" name="email" id="email" required data-validation-required-message="Please enter your email" />
                         </div>
@@ -67,7 +80,7 @@
                      -->
                         <div class="control-group">
                             <div class="controls">
-                                <lable for="materials">Submit supporting materials, e.g. slide deck, executive summary, etc. [pdf file only]</label>
+                                <lable for="materials">Submit a pdf file</label>
                                     <br>
                                     <input type="file" name="materials">
                             </div>
@@ -75,8 +88,8 @@
                     <div class="col-lg-12 text-right">
                         <button class="button button-big button-dark" onclick="contact_send();">REGISTER</button>
                     </div>
+            </div>
 		</form>
-
             </div>
         </div>
     </div>
