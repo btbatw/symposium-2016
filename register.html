@@ -1,0 +1,96 @@
+<div class="container">
+    <div class="row">
+        <div id="register-form" class="col-lg-6 col-lg-offset-3">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close">x</button>
+                <div class="col-lg-12">
+                    <h3 class="uppercase">Register for Entrepreneurial Presentation</h3>
+                </div>
+                <div class="panel-body">
+                	<p>Please submit a document that addresses the following topics. Other supporting materials, e.g. slide deck, executive summary, etc. are welcome too. Please concatenate multiple pdf files into one.</p>
+          <ul>
+						<li><b>Innovation</b>: What is your product? How is it different from current products?</li>
+						<li><b>Development Timeline</b>: Where does your product come from? What testing has been done?</li>
+						<li><b>Market Potential</b>: What problem do you aim to solve? How large is the market?</li>
+						<li><b>Intellectual Property</b>: Is your idea defensible?</li>
+						<li><b>Team background</b>: Highlight of your team’s expertise and experiences.</li>
+						<li><b>Future plans</b>: What is the next step to advance your product? What resources are you seeking to achieve that?</li>
+					</ul>
+                </div>
+                <!-- REGISTER FORM -->
+		<form action="upload_reg.php" method="post" enctype="multipart/form-data">
+                <div class="register-form panel-body">
+        <!--        <div class="register-form col-lg-12"> --!>
+                <p>* required fields<br>
+		    						<div class="control-group">
+                        <div class="controls">
+                            <label for="teamname">Team Name*</label>
+                            <br>
+                            <input type="text" name="teamname" id="teamname" required data-validation-required-message="Please enter your team name" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls ">
+                            <label for="email">Contact EMAIL*</label>
+                            <br>
+                            <input type="email" name="email" id="email" required data-validation-required-message="Please enter your email" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls ">
+                            <label for="members">Team Members* (Resize the textbox for easier entering.)</label>
+                            <br>
+                            <textarea name="members" id="members" required data-validation-required-message="Please enter your team members' names"></textarea>
+           <!--                 <input type="text" name="members" id="members" required data-validation-required-message="Please enter your team members' names" /> --!>
+                        </div>
+                    </div>
+    <!-- proposal
+		    						<div class="control-group">
+                        <div class="controls ">
+                            <label for="innovation">Innovation: What is your product? How is it different from current products?</label>
+                            <br>
+                            <textarea type="textarea" name="innovation" id="innovation" rows="5" cols="100" form="entreform"></textarea>
+                        </div>
+                        <div class="controls ">
+                            <label for="development">Development Timeline: Where does your product come from? What testing has been done?</label>
+                            <br>
+                            <textarea type="text" name="development" id="development" rows="5" cols="100" form="entreform"></textarea>
+                        </div>
+                        <div class="controls ">
+                            <label for="market">Market Potential: What problem do you aim to solve? How large is the market?</label>
+                            <br>
+                            <textarea type="text" name="market" id="market" rows="5" cols="100" form="entreform"></textarea>
+                        </div>
+                        <div class="controls ">
+                            <label for="intellectual">Intellectual Property: Is your idea defensible?</label>
+                            <br>
+                            <textarea type="text" name="intellectual" id="intellectual" rows="5" cols="100" form="entreform"></textarea>
+                        </div>
+                        <div class="controls ">
+                            <label for="background">Team background: Highlight of your team’s expertise and experiences.</label>
+                            <br>
+                            <textarea type="text" name="background" id="background" rows="5" cols="100" form="entreform"></textarea>
+                        </div>
+                        <div class="controls ">
+                            <label for="future">Future plans: What is the next step to advance your product? What resources are you seeking to achieve that?</label>
+                            <br>
+                            <textarea type="text" name="future" id="future" rows="5" cols="100" form="entreform"></textarea>
+                        </div>
+                    </div>
+                     -->
+                        <div class="control-group">
+                            <div class="controls">
+                                <lable for="materials">Update your pdf file*</label>
+                                    <br>
+                                    <input type="file" name="materials">
+                            </div>
+                        </div>
+                    <div class="col-lg-12 text-right">
+                        <button class="button button-big button-dark" onclick="contact_send();">REGISTER</button>
+                    </div>
+            </div>
+		</form>
+            </div>
+        </div>
+    </div>
+</div>
